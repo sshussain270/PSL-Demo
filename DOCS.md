@@ -33,18 +33,18 @@ Lets understand the basic objects of PSL.
 
 Domains are highest level structures. All entities and their interactions exist within the domain space.
 
-You define a new domain space `mydomain` as:
+You define a new domain space `market` as:
 ```
-domain mydomain {
+domain market {
 
 }
 ```
 ### Context
 
-Every interaction in a domain space happens with a context. You can add a `Context` to your domain space `mydomain` as:
+Every interaction in a domain space happens with a context. You can add a `Context` to your domain space `market` as:
 
 ```
-domain mydomain {
+domain market {
     context {
 
     }
@@ -56,7 +56,7 @@ can be anything you like. Let's add a `time` and `place`.
 
 
 ```
-domain mydomain {
+domain market {
     context {
         time = '21st Century',
         place = 'California'
@@ -70,7 +70,7 @@ Entities are objects that exist within a domain space that can have interactions
 an `entity` and give them properties which demonstrated as following:
 
 ```
-domain mydomain {
+domain market {
     context {
         time = '21st Century',
         place = 'California'
@@ -85,7 +85,7 @@ domain mydomain {
 Now lets add another entity called `buyers` which are people who buy stuff.
 
 ```
-domain mydomain {
+domain market {
     context {
         time = '21st Century',
         place = 'California'
@@ -105,7 +105,7 @@ Note that the entities `seller` and `buyer` a not directly related to each other
 isn't defined yet. So lets define that:
 
 ```
-domain mydomain {
+domain market {
     context {
         time = '21st Century',
         place = 'California'
@@ -130,7 +130,7 @@ domain mydomain {
 Relations exist between entities and connect them. Lets define a relation between a `seller` and `stuff`, and between `stuff` and `buyer`.
 
 ```
-domain mydomain {
+domain market {
     context {
         time = '21st Century',
         place = 'California'
