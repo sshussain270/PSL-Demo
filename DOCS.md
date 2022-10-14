@@ -8,14 +8,14 @@ there are no such things as functions.
 
 # Benefits
 
-1. *Short and Concise:* PSL forces you to be think more and write less, and be as concise as possible.
-2. *Extensibility:* Any domain knowledge written in PSL can easily be extended further by someone else by `import`ing
+1. **Short and Concise:** PSL forces you to be think more and write less, and be as concise as possible.
+2. **Extensibility:** Any domain knowledge written in PSL can easily be extended further by someone else by `import`ing
 and building upon it. In execution, all domain knowledge merges into one runtime database, accessible using a dot(`.`) notation.
-3. *Hypothesis and Proofs:* PSL lets you provide proofs for any new relation you create, thereby emphasizing the validity of the information. Proofs can be formal or informal such as proof by examples.
-4. *Dependence and Breakage:* PSL treats domain knowledge as building blocks. Higher level blocks are dependent on lower level blocks. Devalidation of a hypothesis at a lower level block immediately devalidates the higher level block that is dependent on it, providing a clear 
+3. **Hypothesis and Proofs:** PSL lets you provide proofs for any new relation you create, thereby emphasizing the validity of the information. Proofs can be formal or informal such as proof by examples.
+4. **Dependence and Breakage:** PSL treats domain knowledge as building blocks. Higher level blocks are dependent on lower level blocks. Devalidation of a hypothesis at a lower level block immediately devalidates the higher level block that is dependent on it, providing a clear 
 indication that something needs to be fixed.
-5. *Shelling:* Since all domain knowledge cannot be known altogether, you can create entities without specifying what they are and continue to build upon them. Then define them later at some point when more information is known.
-6. *Integration:* Since PSL is a programming language, it integrates with all the programming tools you already use such as GitHub for repository,Git for Version Control, Pull requests for peer reviews and your favourite code editor.
+5. **Shelling:** Since all domain knowledge cannot be known altogether, you can create entities without specifying what they are and continue to build upon them. Then define them later at some point when more information is known.
+6. **Integration:** Since PSL is a programming language, it integrates with all the programming tools you already use such as GitHub for repository,Git for Version Control, Pull requests for peer reviews and your favourite code editor.
 
 
 # Example
